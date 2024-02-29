@@ -1,0 +1,181 @@
+body {
+  text-align: center;
+  background: linear-gradient(to right, #556270, #4ECDC4);
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+h1 {
+  display: inline-grid;
+  font-size: 5rem;
+  border: 3.5px;
+  border-style: outset;
+  border-color: rgb(255 0 0 / 96%);
+  border-radius: 3rem;
+  color: rgb(123 217 49);
+  text-shadow: rgb(218, 4, 99) 3px 0px;
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 35px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+h1:hover {
+  box-shadow: 2.5px 2.5px 15px 2.5px rgb(222, 14, 215);
+  cursor: pointer;
+}
+
+.bottom-container {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin: 1.5% 0;
+  box-shadow: inset 0 0 0 0 #53868c;
+}
+
+.bottom-container:hover {
+  color: #fff52f;
+}
+
+
+.w {
+  background-image: url("images/tom1.png");
+}
+
+.a {
+  background-image: url("images/tom2.png");
+}
+
+.s {
+  background-image: url("images/tom3.png");
+}
+
+.d {
+  background-image: url("images/tom4.png");
+}
+
+.j {
+  background-image: url("images/kick.png");
+}
+
+.k {
+  background-image: url("images/snare.png");
+}
+
+.l {
+  background-image: url("images/crash.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #09d7b1;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 8px solid #961a35;
+  font-size: 4.4rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 800;
+  color: #7be155;
+  text-shadow: 3px 0 #000000;
+  border-radius: 15px;
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(34 119 129);
+}
+
+.drum:hover {
+  box-shadow: 2.5px 2.5px 15px 2.5px rgb(208, 222, 14);
+  cursor: pointer;
+}
